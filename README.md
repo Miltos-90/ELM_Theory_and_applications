@@ -4,7 +4,7 @@ The Extreme Learning Machine (ELM) is a learning algorithm for single hidden lay
 It is known to have good generalisation performance at extremely fast learning speeds compared to standard learning algorithms for neural networks, that first appeared [here](https://web.njit.edu/~usman/courses/cs675_fall20/ELM-NC-2006.pdf).
 
 ## Learning Algorithm 
-The training algorithm consists of 3 simple steps. Recall that single-layer feedforward neural networks with <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%5Ctilde%7BN%7D%24%24&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$\tilde{N}$$" width="17" height="18" /> hidden nodes and activation function <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24g%28%5Cmathbf%7Bx%7D%29%24%24&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$g(\mathbf{x})$$" width="39" height="19" /> on a dataset $(\mathbf{x}, \mathbf{y})$ of $N$ samles are described as
+The training algorithm consists of 3 simple steps. Recall that single-layer feedforward neural networks with <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%5Ctilde%7BN%7D%24%24&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$\tilde{N}$$" width="17" height="18" /> hidden nodes and activation function <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24g%28%5Cmathbf%7Bx%7D%29%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$g(\mathbf{x})$$" width="39" height="19" /> on a dataset $(\mathbf{x}, \mathbf{y})$ of $N$ samles are described as
 
 $$\sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{x}_j) = \sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{w}_i \mathbf{x}_j + b_i)=\mathbf{y}_j,~j = 1,\cdots, N $$
 
