@@ -8,24 +8,12 @@ The training algorithm consists of 3 simple steps. Recall that single-layer feed
 
 ![png](./imm/render0.png)
 
-$$\sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{x}_j) = \sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{w}_i \mathbf{x}_j + b_i)=\mathbf{y}_j,~j = 1,\cdots, N $$
-
-where $\mathbf{w}_i = [w_{i1},\cdots, w_{iN}]^T$ is the weight vector connecting the $i$th hidden node and input nodes, $\mathbf{\beta}_i=[\beta_{i1},\cdots, \beta_{iN}]^T$ is the wieght vector connecting the $i$th hidden node and the output nodes, and $b_i$ is the bias of the $i$th hidden node.
-
 The learning algorithm consists of 3 simple steps:
 
 * Randomly assign the input weight and bias vectors
-* Compute the hidden layer output matrix $H$ as
-$$ H(\mathbf{w},\mathbf{b},\mathbf{x}) = 
-\begin{bmatrix} 
-    g(w_1x_1+b_1) & \cdots & g(w_{\tilde{N}}x_{1} + b_{\tilde{N}}) \\
-    \vdots & \ddots & \vdots\\
-    g(w_{1}x_{N} + b_{1})  & \cdots & g(w_{\tilde{N}} x_{N} + b_{\tilde{N}}) 
-\end{bmatrix} 
-$$
-* Compute the output weights $\mathbf{\beta}$ as
-$$ \mathbf{\beta} = \mathbf{H}^\dagger \mathbf{y}, \mathbf{H}^\dagger = (\mathbf{H}^T \mathbf{H})^{-1} \mathbf{H}^T $$
-
+* Compute the hidden layer output matrix H 
+* Compute the output weights
+* 
 All this is very simple to implement:
 
 
