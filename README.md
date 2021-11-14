@@ -138,7 +138,7 @@ plt.show()
 
 
     
-![png](output_4_0.png)
+![png](./imm/output_4_0.png)
     
 
 
