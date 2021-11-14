@@ -4,9 +4,9 @@ The Extreme Learning Machine (ELM) is a learning algorithm for single hidden lay
 It is known to have good generalisation performance at extremely fast learning speeds compared to standard learning algorithms for neural networks, that first appeared [here](https://web.njit.edu/~usman/courses/cs675_fall20/ELM-NC-2006.pdf).
 
 ## Learning Algorithm 
-The training algorithm consists of 3 simple steps. Recall that single-layer feedforward neural networks with <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%5Ctilde%7BN%7D%24%24&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$\tilde{N}$$" width="17" height="18" /> hidden nodes and activation function <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24g%28%5Cmathbf%7Bx%7D%29%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$g(\mathbf{x})$$" width="39" height="19" /> on a dataset are described as
+The training algorithm consists of 3 simple steps. Recall that single-layer feedforward neural networks with N hidden nodes and an activation function g(x) on a dataset (x,y) are described as
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%5Csum_%7Bi%3D1%7D%5E%7B%5Ctilde%7BN%7D%7D%20%5Cbeta_i%20g_i%20%28%5Cmathbf%7Bx%7D_j%29%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7B%5Ctilde%7BN%7D%7D%20%5Cbeta_i%20g_i%20%28%5Cmathbf%7Bw%7D_i%20%5Cmathbf%7Bx%7D_j%20%2B%20b_i%29%3D%5Cmathbf%7By%7D_j%2C~j%20%3D%201%2C%5Ccdots%2C%20N%20%24%24%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$\sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{x}_j) = \sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{w}_i \mathbf{x}_j + b_i)=\mathbf{y}_j,~j = 1,\cdots, N $$" width="429" height="31" />
+![png](./imm/renred0.png)
 
 $$\sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{x}_j) = \sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{w}_i \mathbf{x}_j + b_i)=\mathbf{y}_j,~j = 1,\cdots, N $$
 
