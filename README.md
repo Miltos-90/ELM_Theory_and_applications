@@ -13,7 +13,7 @@ The learning algorithm consists of 3 simple steps:
 * Randomly assign the input weight and bias vectors
 * Compute the hidden layer output matrix H 
 * Compute the output weights
-* 
+
 All this is very simple to implement:
 
 
