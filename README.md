@@ -6,7 +6,7 @@ It is known to have good generalisation performance at extremely fast learning s
 ## Learning Algorithm 
 The training algorithm consists of 3 simple steps. Recall that single-layer feedforward neural networks with N hidden nodes and an activation function g(x) on a dataset (x,y) are described as
 
-![png](./imm/renred0.png)
+![png](./imm/render0.png)
 
 $$\sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{x}_j) = \sum_{i=1}^{\tilde{N}} \beta_i g_i (\mathbf{w}_i \mathbf{x}_j + b_i)=\mathbf{y}_j,~j = 1,\cdots, N $$
 
