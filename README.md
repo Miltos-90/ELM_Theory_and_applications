@@ -34,7 +34,9 @@ $$ y(x) = \begin{cases}
   \end{cases}
 $$
 
-on the interval $[-10, 10]$ with $x_i$ being uniformly sampled, with uniform noise distributed in $[-0.2, 0.2]$ for the training data. We'll make a 70/30 split and predict with the ELM:
+on the interval $[-10, 10]$.
+
+$x_i$ is being uniformly sampled, with uniform noise distributed in $[-0.2, 0.2]$ for the training data. We'll make a 70/30 split and predict with the ELM:
 
 
 ```python
