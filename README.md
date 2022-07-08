@@ -27,6 +27,7 @@ from sklearn.metrics import mean_squared_error, accuracy_score
 ### Dummy case: SinC function
 
 Let's approximate the SinC function, given by
+
 $$ y(x) = \begin{cases}
     sin(x) / x, & \text{if $x \neq 0$}.\\
     1, & \text{otherwise}.
